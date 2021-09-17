@@ -5,4 +5,4 @@ Support added for character display and bug fixes for arduino uni int limitation
 Board used:
 https://www.aliexpress.com/item/1005002746621626.html
 
-![alt text](https://github.com/riptho/VFD-PT6312-Driver-for-Arduino/blob/master/vfd.PNG?raw=true)
+![alt text](https://github.com/riptho/VFD-PT6312-Driver-for-Arduino/blob/v1.0/vfd.PNG?raw=true)
