@@ -12,11 +12,9 @@
 #define VFD_STB_H() digitalWrite(8, HIGH);
 #define VFD_STB_L() digitalWrite(8, LOW);
 
-extern int CurSeconds;
+extern long CurSeconds;
 
 extern unsigned char vfdmap[9];
-
-//unsigned char vfdbuf[7]={0,0,0,0,0,0,0};
 
 extern unsigned char dict[];
 extern unsigned char DisplayCache[9];
@@ -29,6 +27,8 @@ void VFD_LED_ON();
 void VFD_LED_OFF();
 void VFD_Display();
 void VFD_DATA_2_DisplayCache();
+void VFD_DATA_DisplayData(char ticker[], long value );
+
 
 
 #endif
